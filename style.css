@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+body {
+    font-family: "Roboto", sans-serif;
+}
+.hero {
+    background-color: #1F2937;
+    margin: 0%; 
+}
+.main-text {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    padding-top: 10vh;
+}
+.link-text {
+    font-size: 18px;
+    color: #E5E7EB;
+    list-style-type: none;
+    display: flex;
+    padding-right: 15%;
+    gap: 15px;
+}
+
+.top {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+.logo-text {
+    font-size: 24px;
+    color: #F9FAF8;
+    padding: 1% 0 0 15%;
+}
+.secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.sign-up {
+    font-size: 18px;
+    color: #E5E7EB;
+    background-color: #1E90FF;
+    margin-top: 2%;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 24px;
+}
+.image {
+   max-width: 400px;
+   width: 100%;
+   height: auto;
+}
+.mid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 0 5%; 
+}
+.move {
+    padding-bottom: 80px;
+    padding-left: 11%; 
+    margin-left: 0;
+}
+.img-container {
+    display: flex;
+    justify-content: flex-start;
+    flex: 1;
+    padding-left: 30px; 
+}
+@media (max-width: 768px) {
+    .img-container {
+      justify-content: center;
+      padding-left: 0;
+    }
+  
+    .link-text {
+      flex-direction: column;
+      padding-right: 0;
+      align-items: center;
+    }
+  
+    .top {
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+    }
+  }
+  .information {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
+    margin: 3% 0;
+  }
+  .anime {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    gap: 50px;
+    flex: 1;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 0 auto;
+
+  }
+  .itachi, .obito, .kisame, .deidara {
+    width: 100%;
+    max-width: 200px;     
+    aspect-ratio: 1 / 1;  
+    object-fit: cover;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+  }
+  @media (max-width: 600px) {
+    .image-grid img {
+      max-width: 45%; 
+    }
+  }
+  .one-line {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    gap: 50px;
+    padding: 5px;
+  }
+
+  button {
+    background-color: #3882F6;
+  }
+  .quote-box {
+    background-color: #E5E7EB;
+    padding: 100px 0;
+  }
+  .quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
+  }
+  .uchiha {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 300px;
+  }
+  .action {
+    background-color: #3882F6;
+    margin: 150px;
+    border: none;
+    border-radius: 10px;
+  }
+  .son {
+    padding: 50px 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+  }
+  @media (max-width: 768px) {
+    .son {
+      flex-direction: column;
+      padding: 30px 20px;
+      text-align: center;
+      gap: 20px;
+    }
+    .action {
+      margin: 50px 20px;
+    }
+  }
+  .sign-container {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .sign {
+    font-size: 18px;
+    color: #E5E7EB;
+    background-color: #1E90FF;
+    border: 3px solid white;
+    border-radius: 8px;
+    padding: 12px 24px;
+  }
+  footer {
+    background-color: #1F2937;
+    color: white;
+    padding: 3% 10%;
+    text-align: center;
+  }
+  @media (max-width: 768px) {
+    footer {
+      padding: 5% 5%;
+    }
+  }
+  @media (min-width: 768px) {
+    /* Larger screen styles */
+  }
+
